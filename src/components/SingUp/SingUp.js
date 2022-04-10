@@ -39,10 +39,10 @@ const SingUp = () => {
         }
 
         createUserWithEmailAndPassword(email, password)
-            .then(result => {
+        // .then(result => {
 
-                console.log('user created');
-            })
+        //     console.log('user created');
+        // })
     }
     return (
         <div className='form-container'>
